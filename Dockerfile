@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
  
 RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \

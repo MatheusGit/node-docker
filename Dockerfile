@@ -4,3 +4,5 @@ RUN set -xe \
     && apk add --update nodejs nodejs-npm 
     
 RUN apk add sudo
+
+RUN rm -rf /var/cache/apk/*

@@ -14,6 +14,3 @@ RUN adduser -D default;                                               \
 ENV     HOME /home/default
 WORKDIR /home/default
 USER    default
-
-
-RUN rm -rf /var/cache/apk/*

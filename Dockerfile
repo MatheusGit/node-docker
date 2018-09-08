@@ -5,8 +5,3 @@ RUN set -xe \
     
 RUN apk add sudo
     
-RUN adduser -D foo
-
-USER foo
-    
-CMD [ "node" ]
